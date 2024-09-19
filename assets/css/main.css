@@ -61,6 +61,10 @@ body {
 	justify-content: center;
 	margin-top: 20px;
   }
+
+  a{
+	outline:none !important;
+  }
   
   .navbar .logo {
 	font-family: "Inter", sans-serif;
@@ -72,11 +76,11 @@ body {
   .navbar .logo a {
 	text-decoration: none;
 	color: #090909;
-	outline: none;
+	outline: 0;
   }
 
   .navbar a:active, a:focus{
-	outline: none; /* Works in Firefox, Chrome, IE8 and above */ 
+	outline: 0; /* Works in Firefox, Chrome, IE8 and above */ 
 }
   
   .navbar ul {
